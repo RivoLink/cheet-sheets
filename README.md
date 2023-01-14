@@ -24,6 +24,9 @@ alias start="eval /path/to/start.sh $@"
 ```
 
 ```sh
+# make start.sh executable
 sudo chmod +x /path/to/start.sh
+
+# refresh aliases
 sudo source ~/.bash_aliases
 ```
