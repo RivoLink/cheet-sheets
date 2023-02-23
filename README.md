@@ -8,6 +8,9 @@ git config --global user.email "rivo.link@gmail.com"
 # Warning: If you use this method, your Git account passwords will be saved in plaintext format
 # in the global .git-credentials file, e.g in Linux it will be /home/[username]/.git-credentials
 git config --global credential.helper store
+
+# To set initial branch name to 'main' for all new repositories
+git config --global init.defaultBranch main
 ```
 
 ## Start
