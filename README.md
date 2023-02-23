@@ -4,7 +4,10 @@
 ```sh
 git config --global user.name "RivoLink"
 git config --global user.email "rivo.link@gmail.com"
-git config --global credential.helper cache
+
+# Warning: If you use this method, your Git account passwords will be saved in plaintext format
+# in the global .git-credentials file, e.g in Linux it will be /home/[username]/.git-credentials
+git config --global credential.helper store
 ```
 
 ## Start
