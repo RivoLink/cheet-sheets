@@ -11,6 +11,9 @@ git config --global credential.helper store
 
 # To set initial branch name to 'main' for all new repositories
 git config --global init.defaultBranch main
+
+# To set/change initial branch name to 'main' for a new repository
+git branch -m main
 ```
 
 ## Start
